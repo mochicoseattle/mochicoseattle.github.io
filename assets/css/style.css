@@ -140,10 +140,10 @@ body, html {
 #contact #contact-info #text{
   float: left;
   position: relative;
+  left: 80px;
   top: 90px;
-  width: 50%;
+  width: 45%;
   height: 450px;
-  text-align: center;
   color: #545454;
 }
 
