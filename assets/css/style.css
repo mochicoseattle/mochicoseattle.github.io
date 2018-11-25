@@ -106,19 +106,26 @@ body, html {
   text-decoration: underline;
 }
 
-.image-box {
+.container {
   width: 20%;
   padding: 1%;
-  margin: 3%;
+  margin: 2.5%;
+  display: inline-block;
+}
+
+.container .image-box {
+  width: 100%;
+  padding: 5%;
   background: #EDD8BB;
   display: inline-block;
-  font-size: 0; /* fixes bottom padding */
+  border: 1px solid #EDD8BB; 
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 
-.image-box img {
+.container .image-box img {
+  vertical-align: middle;
   max-width: 100%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
